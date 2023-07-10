@@ -18,10 +18,11 @@ body {
   font-family: 'Conv_Roboto-Regular', Sans-Serif; /* Font family for entire body */
   font-size: 12px; 
   font-weight: normal;
+  
   color: #202124; /* color for entire body */
   line-height: 1.5em;
-  background: #3d82a16b; 
-}
+  background: #186b8d6b; 
+}s
 a {
   text-decoration: none;
   outline: 0;
@@ -30,9 +31,7 @@ a {
 ul {
   padding-left: 0;
 }
-li {
-  list-style: none;
-}
+
 /*** 2.0 - Globals ***/
 h1 {
   text-transform: uppercase;
@@ -46,7 +45,7 @@ h2 {
   margin-bottom: 25px;
   text-transform: uppercase;
   font-weight: bold;
-  color:#b30000
+  color:#1a1919
 }
 h2 span {
   vertical-align: bottom;
@@ -57,6 +56,7 @@ h3 {
   margin-bottom: 5px;
   text-transform: uppercase;
   font-size: 18px;
+  
 }
 article {
   margin-bottom: 40px;
@@ -69,11 +69,11 @@ p span {
   margin-bottom: 15px;
   display: block;
 }
-ul li {
+/* ul li {
   background: url("../../images/arrow.png") 0 9px no-repeat;
   padding-left: 15px;
   line-height: 28px;
-}
+} */
 /*** 3.0 - Fonts ***/
 @font-face {
   font-family: 'Conv_Roboto-Regular';
@@ -111,6 +111,7 @@ header ul li {
   float: right;
   margin-right: 10px;
   line-height: 80px; /* here line-height should be equal to height of the main class header */
+  list-style: none;
 }
 header ul li i {
   vertical-align: middle;
@@ -124,6 +125,7 @@ aside {
   width: 25%;
   height: 50%;
   float: left;
+  
   padding-top: 5%;
   padding-left: 5%;
 }
@@ -184,8 +186,7 @@ header ul li {
 	line-height: 36px;
 	padding-left: 0;
 }
-	header ul li a {
-		color: #fff;
+	
 	}
   #wrapper {
     max-width: 84%;
